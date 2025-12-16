@@ -1,0 +1,6 @@
+# Placeholder to keep this directory in git
+# The following files will be generated:
+# - shl_catalog.csv (from scraper)
+# - embeddings_cache/ (from recommender)
+# Place your Gen_AI-Dataset.xlsx here
+
