@@ -464,9 +464,9 @@ def main():
                                     features.append("✅ Remote")
                                 if r.assessment.adaptive_irt:
                                     features.append("🔄 Adaptive")
-                                if r.assessment.languages:
-                                    features.append(f"🌐 {r.assessment.languages}")
-                                
+                                if r.assessment.duration:
+                                    features.append(f"⏱️ {r.assessment.duration}")
+
                                 if features:
                                     st.caption(" | ".join(features))
                                 
